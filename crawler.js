@@ -14,7 +14,7 @@ function filterChapters(html){
 		]
 	}]*/
 
-
+	var test=''
 }
 
 http.get(url,function(res){
@@ -31,3 +31,4 @@ http.get(url,function(res){
 }).on('error',function(e){
 	console.log(e.message)
 })
+
